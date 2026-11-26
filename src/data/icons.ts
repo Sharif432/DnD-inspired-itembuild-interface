@@ -1,0 +1,88 @@
+import type { ItemIconAsset } from '../types/item';
+
+export const BUILTIN_ITEM_ICONS: ItemIconAsset[] = [
+  {
+    id: 'longsword',
+    label: 'Runed Blade',
+    url: '/src/assets/icons/longsword.webp',
+    defaultCategory: 'Weapon',
+    format: 'webp',
+  },
+  {
+    id: 'arcane_staff',
+    label: 'Arcane Staff',
+    url: '/src/assets/icons/arcane_staff.webp',
+    defaultCategory: 'Staff & Wand',
+    format: 'webp',
+  },
+  {
+    id: 'aegis_shield',
+    label: 'Kite Shield',
+    url: '/src/assets/icons/aegis_shield.webp',
+    defaultCategory: 'Armor & Shield',
+    format: 'webp',
+  },
+  {
+    id: 'signet_ring',
+    label: 'Signet Ring',
+    url: '/src/assets/icons/signet_ring.webp',
+    defaultCategory: 'Ring',
+    format: 'webp',
+  },
+  {
+    id: 'elixir_flask',
+    label: 'Elixir Flask',
+    url: '/src/assets/icons/elixir_flask.webp',
+    defaultCategory: 'Potion & Elixir',
+    format: 'webp',
+  },
+  {
+    id: 'shadow_cloak',
+    label: 'Velvet Cloak',
+    url: '/src/assets/icons/shadow_cloak.webp',
+    defaultCategory: 'Wondrous Item',
+    format: 'webp',
+  },
+  {
+    id: 'grimoire_tome',
+    label: 'Astrolabe Tome',
+    url: '/src/assets/icons/grimoire_tome.webp',
+    defaultCategory: 'Tome & Scroll',
+    format: 'webp',
+  },
+  {
+    id: 'sunfire_bow',
+    label: 'Recurve Bow',
+    url: '/src/assets/icons/sunfire_bow.webp',
+    defaultCategory: 'Weapon',
+    format: 'webp',
+  },
+  {
+    id: 'crown_relic',
+    label: 'Sovereign Crown',
+    url: '/src/assets/icons/crown_relic.svg',
+    defaultCategory: 'Wondrous Item',
+    format: 'svg',
+  },
+  {
+    id: 'warhammer',
+    label: 'Runed Warhammer',
+    url: '/src/assets/icons/warhammer.svg',
+    defaultCategory: 'Weapon',
+    format: 'svg',
+  },
+  {
+    id: 'amulet_eye',
+    label: 'Watcher Amulet',
+    url: '/src/assets/icons/amulet_eye.svg',
+    defaultCategory: 'Wondrous Item',
+    format: 'svg',
+  },
+  {
+    id: 'horned_helm',
+    label: 'Vanguard Helm',
+    url: '/src/assets/icons/horned_helm.svg',
+    defaultCategory: 'Armor & Shield',
+    format: 'svg',
+  },
+];

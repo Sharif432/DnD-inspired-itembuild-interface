@@ -1,0 +1,6 @@
+{
+  "name": "Relic Forge",
+  "description": "D&D-inspired magical item generator with WebP icon selection, rarity styling, uniform card vault, and JSON item block export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <rect width="256" height="256" fill="#14171E"/>
+  <defs>
+    <linearGradient id="steelHead" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#CBD5E1"/>
+      <stop offset="50%" stop-color="#64748B"/>
+      <stop offset="100%" stop-color="#334155"/>
+    </linearGradient>
+    <linearGradient id="haftWood" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#78350F"/>
+      <stop offset="50%" stop-color="#92400E"/>
+      <stop offset="100%" stop-color="#451A03"/>
+    </linearGradient>
+  </defs>
+  <g transform="rotate(-38 128 128)">
+    <rect x="118" y="74" width="20" height="148" rx="4" fill="url(#haftWood)" stroke="#D4A853" stroke-width="3"/>
+    <rect x="115" y="182" width="26" height="10" rx="2" fill="#D4A853"/>
+    <circle cx="128" cy="222" r="12" fill="#D4A853" stroke="#FEF08A" stroke-width="2.5"/>
+    <path d="M68 54 L188 54 L180 104 L76 104 Z" fill="url(#steelHead)" stroke="#E2E8F0" stroke-width="3.5" stroke-linejoin="round"/>
+    <rect x="64" y="50" width="14" height="58" rx="3" fill="#D4A853" stroke="#FEF08A" stroke-width="2"/>
+    <rect x="178" y="50" width="14" height="58" rx="3" fill="#D4A853" stroke="#FEF08A" stroke-width="2"/>
+    <path d="M128 38 L140 54 L116 54 Z" fill="#E2E8F0" stroke="#94A3B8" stroke-width="2"/>
+    <polygon points="128,64 138,79 128,94 118,79" fill="#38BDF8" stroke="#BAE6FD" stroke-width="2"/>
+  </g>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <rect width="256" height="256" fill="#14171E"/>
+  <defs>
+    <radialGradient id="crownGlow" cx="50%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#D4A853" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#14171E" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F6DC93"/>
+      <stop offset="50%" stop-color="#D4A853"/>
+      <stop offset="100%" stop-color="#8A6320"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" fill="url(#crownGlow)"/>
+  <path d="M44 176 L34 92 L84 128 L128 62 L172 128 L222 92 L212 176 Z" fill="url(#goldGrad)" stroke="#F9E5A7" stroke-width="4" stroke-linejoin="round"/>
+  <rect x="42" y="176" width="172" height="22" rx="4" fill="#9E7328" stroke="#F6DC93" stroke-width="3"/>
+  <circle cx="128" cy="58" r="10" fill="#E11D48" stroke="#FDE68A" stroke-width="3"/>
+  <circle cx="34" cy="88" r="8" fill="#3B82F6" stroke="#FDE68A" stroke-width="2.5"/>
+  <circle cx="222" cy="88" r="8" fill="#3B82F6" stroke="#FDE68A" stroke-width="2.5"/>
+  <polygon points="128,128 142,150 128,170 114,150" fill="#E11D48" stroke="#FDE68A" stroke-width="2.5"/>
+  <circle cx="78" cy="187" r="5" fill="#FDE68A"/>
+  <circle cx="128" cy="187" r="6" fill="#E11D48" stroke="#FDE68A" stroke-width="2"/>
+  <circle cx="178" cy="187" r="5" fill="#FDE68A"/>
+</svg>
